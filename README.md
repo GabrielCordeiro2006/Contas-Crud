@@ -123,7 +123,7 @@ Após instalar e abrir o Insomnia, você pode criar novas requisições para int
     * **Método:** `GET`
     * **URL:** `http://localhost:8080/contas/filtro?dataVencimento=2025-05-15` (substitua a data desejada)
     * **Resposta Esperada:** `200 OK` com uma lista de contas com a data de vencimento especificada no corpo da resposta ou `204 No Content` se não houver contas com essa data.
-        * **Observação:** Este endpoint atualmente filtra por uma data específica. Para obter as contas com as datas de vencimento mais próximas, a aplicação precisaria ser modificada conforme discutido anteriormente.
+      
 
 * **Excluir uma conta por ID:**
     * **Método:** `DELETE`
